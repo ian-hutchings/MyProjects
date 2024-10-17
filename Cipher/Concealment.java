@@ -1,3 +1,5 @@
+package Cipher;
+
 import java.util.*;
 
 public class Concealment extends Substitution {

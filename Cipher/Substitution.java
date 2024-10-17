@@ -1,3 +1,5 @@
+package Cipher;
+
 public class Substitution extends Cipher {
     private String shifter;
     private String alpha;

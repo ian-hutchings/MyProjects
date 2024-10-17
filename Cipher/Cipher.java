@@ -1,3 +1,5 @@
+package Cipher;
+
 import java.util.*;
 import java.io.*;
 
@@ -15,7 +17,7 @@ public abstract class Cipher {
     // (aka. the encodable range)
     public static final int TOTAL_CHARS = MAX_CHAR - MIN_CHAR + 1;
 
-    //   Behavior: Applies this Cipher's encryption scheme to the file with the
+    //   Behavior: Applies this Cipher.Cipher's encryption scheme to the file with the
     //             given 'fileName', creating a new file to store the results.
     // Exceptions: Throws a FileNotFoundException if a file with the provided 'fileName'
     //             doesn't exist
@@ -25,7 +27,7 @@ public abstract class Cipher {
         fileHelper(fileName, true, "-encrypted");
     }
     
-    //   Behavior: Applies the inverse of this Cipher's encryption scheme to the file with the
+    //   Behavior: Applies the inverse of this Cipher.Cipher's encryption scheme to the file with the
     //             given 'fileName' (reversing a single round of encryption if previously applied)
     //             creating a new file to store the results.
     // Exceptions: Throws a FileNotFoundException if a file with the provided 'fileName'
@@ -55,16 +57,16 @@ public abstract class Cipher {
         }
     }
 
-    //   Behavior: Applies this Cipher's encryption scheme to 'input', returning the result
+    //   Behavior: Applies this Cipher.Cipher's encryption scheme to 'input', returning the result
     // Exceptions: None
-    //    Returns: The result of applying this Cipher's encryption scheme to `input`
+    //    Returns: The result of applying this Cipher.Cipher's encryption scheme to `input`
     // Parameters: 'input' - the string to be encrypted
     public abstract String encrypt(String input);
     
-    //   Behavior: Applies this inverse of this Cipher's encryption scheme to 'input' (reversing
+    //   Behavior: Applies this inverse of this Cipher.Cipher's encryption scheme to 'input' (reversing
     //             a single round of encryption if previously applied), returning the result
     // Exceptions: None
-    //    Returns: The result of applying the inverse of this Cipher's encryption scheme to `input`
+    //    Returns: The result of applying the inverse of this Cipher.Cipher's encryption scheme to `input`
     // Parameters: 'input' - the string to be decrypted
     public abstract String decrypt(String input);
 }

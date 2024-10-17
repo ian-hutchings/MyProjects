@@ -1,3 +1,5 @@
+package Cipher;
+
 import java.util.*;
 
 public class CaesarKey extends Substitution {
@@ -15,8 +17,8 @@ public class CaesarKey extends Substitution {
         Queue<Character> auxQ = new LinkedList<>();
         String shifter = "";
 
-        for (int i = 0; i < TOTAL_CHARS; i++) {
-            alphaQueue.add((char) (i + MIN_CHAR));
+        for (int i = 0; i < Cipher.TOTAL_CHARS; i++) {
+            alphaQueue.add((char) (i + Cipher.MIN_CHAR));
         }
 
         for (int i = 0; i < key.length(); i++) {

@@ -1,14 +1,16 @@
+package Cipher;
+
 import java.util.*;
 import java.io.*;
 
 public class Client {
-    // public static final Cipher CHOSEN_CIPHER = null;
-    // public static final Cipher CHOSEN_CIPHER = new CaesarShift(4);
+    // public static final Cipher.Cipher CHOSEN_CIPHER = null;
+    // public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.CaesarShift(4);
     public static final Cipher CHOSEN_CIPHER = new Substitution("JRKAWPCNIQMTGZFVOLYDESUXHB");
-    // public static final Cipher CHOSEN_CIPHER = new CaesarKey("BAG");
-    // public static final Cipher CHOSEN_CIPHER = new MultiCipher(List.of(
-    //     new CaesarShift(4), new CaesarKey("123"),
-    //     new CaesarShift(12), new CaesarKey("lemon")));
+    // public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.CaesarKey("BAG");
+    // public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.MultiCipher(List.of(
+    //     new Cipher.CaesarShift(4), new Cipher.CaesarKey("123"),
+    //     new Cipher.CaesarShift(12), new Cipher.CaesarKey("lemon")));
 
     public static void main(String[] args) throws FileNotFoundException {
         Scanner console = new Scanner(System.in);
