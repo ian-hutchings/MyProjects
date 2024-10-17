@@ -1,17 +1,17 @@
-// **THIS IS AN EXAMPLE IMPLEMENTATION!**
+package Connect4;// **THIS IS AN EXAMPLE IMPLEMENTATION!**
 // Brett Wortzman
 // CSE 123
 // C0: Abstract Strategy Games
 //
 // A class to represent a game of tic-tac-toe that implements the 
-// AbstractStrategyGame interface.
+// AbstractStrategyGame.AbstractStrategyGame interface.
 import java.util.*;
 
 public class TicTacToe implements AbstractStrategyGame {
     private char[][] board;
     private boolean isXTurn;
 
-    // Constructs a new TicTacToe game.
+    // Constructs a new AbstractStrategyGame.AbstractStrategyGame.TicTacToe game.
     public TicTacToe() {
         board = new char[][]{{'-', '-', '-'},
                              {'-', '-', '-'},

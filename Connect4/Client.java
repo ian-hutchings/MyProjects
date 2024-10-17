@@ -1,3 +1,5 @@
+package Connect4;
+
 import java.util.*;
 
 public class Client {

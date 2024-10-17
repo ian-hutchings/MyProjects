@@ -1,10 +1,10 @@
-// Ian Hutchings
+package Connect4;// Ian Hutchings
 // 01/24/2023
 // CSE 123
 // C1: Abstract Strategy Games
 // TA: Ben Wang
 
-// This class is a ConnectFour game. It creates a board of open spaces and takes user input to
+// This class is a AbstractStrategyGame.AbstractStrategyGame.ConnectFour game. It creates a board of open spaces and takes user input to
 // fill up the board until one player gets 4 tokens in a row (vertically or horizontally) and 
 // wins or the game results in a tie.
 
@@ -17,7 +17,7 @@ public class ConnectFour implements AbstractStrategyGame {
 
 
     // Behavior
-    //  - This method constructs a new ConnectFour object. It initializes the blank board and sets
+    //  - This method constructs a new AbstractStrategyGame.AbstractStrategyGame.ConnectFour object. It initializes the blank board and sets
     //    the first turn to player 1 (the red player)'s turn.
     public ConnectFour() {
         String[][] board = new String[6][7];

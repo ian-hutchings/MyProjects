@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Client {
     // public static final Cipher.Cipher CHOSEN_CIPHER = null;
-    // public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.CaesarShift(4);
+//     public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.CaesarShift(4);
     public static final Cipher CHOSEN_CIPHER = new Substitution("JRKAWPCNIQMTGZFVOLYDESUXHB");
     // public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.CaesarKey("BAG");
     // public static final Cipher.Cipher CHOSEN_CIPHER = new Cipher.MultiCipher(List.of(
