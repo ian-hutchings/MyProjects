@@ -31,7 +31,7 @@ public class Substitution extends Cipher {
         this.shifter = shifter;
     }
 
-    private boolean shifterCheck(String shifter) {
+    boolean shifterCheck(String shifter) {
         boolean dup = false;
         boolean outside = false;
         for (int i = 0; i < shifter.length() - 1; i++) {
