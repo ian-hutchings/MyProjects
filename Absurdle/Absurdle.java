@@ -1,9 +1,9 @@
-// Ian Hutchings
+package Absurdle;// Ian Hutchings
 // 11/09/2023
 // CSE 122
 // TA: Kyle Du
 
-// This class is the Absurdle game. The user attempts to guess a word, but the correct word
+// This class is the Absurdle.Absurdle game. The user attempts to guess a word, but the correct word
 // changes after each guess. The class generates a pattern of green, yellow, and gray blocks that
 // represents the accuarcy of each letter in the user's guess for each possible word in the user's
 // chosen dictionary. The class picks the output of blocks that corresponds to the most words and
@@ -22,7 +22,7 @@ public class Absurdle  {
     // [[ ALL OF MAIN PROVIDED ]]
     public static void main(String[] args) throws FileNotFoundException {
         Scanner console = new Scanner(System.in);
-        System.out.println("Welcome to the game of Absurdle.");
+        System.out.println("Welcome to the game of Absurdle.Absurdle.");
 
         System.out.print("What dictionary would you like to use? ");
         String dictName = console.next();
